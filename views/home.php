@@ -6,7 +6,7 @@ get_head(array(
 	'ogdescription'=>'Bootstrap Demo',
 	'canonical'=>'',
 ));
-
+get_template('inc/header');
 ?>
 	
 	<!-- ##### CONTENT START ##### -->
