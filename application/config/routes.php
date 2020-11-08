@@ -54,5 +54,6 @@ $route['404_override'] = 'cms/handle_404';
 $route['translate_uri_dashes'] = TRUE;
 
 
-$route['formhandler'] = 'cms/form_handler';
-$route['(:any)'] = 'cms/index/$1';
+$route['(:any)/(:any)'] = 'cms/page/$1/$2';
+$route['cf'] = 'contact_form/index';
+$route['(:any)'] = 'cms/page/$1';
